@@ -1,6 +1,6 @@
 The Back End project was the last project during my time at the Tech Academy.
 
-There are total 4 Live Projects offered by the Academy to its students: Python Project, C# Project, 
+There are total 4 Live Projects offered by the Academy to their students: Python Project, C# Project, 
 Front End and Back End Projects. Students can select either Python or C# for their front-end and back-end projects.
 I have selected  Python/Django for the back-end project.
 
@@ -11,9 +11,7 @@ Restaurants app, Slack app, ToDo List app, etc.
 My contributions to the projects described below:
 
 #### 1. Created the Restaurant App using Zomato API.
-The App allowed a traveler to enter the US city and state and returned 
-the top 10 restaurants for that area. The name of the restaurant, the cuisine, average review ranking and average cost 
-for 2 people would be displaied on the screen.
+The App allowed travelers to enter the US city and state and returned the top 10 restaurants for that area. The name of the restaurant, the cuisine, average review ranking and average cost for 2 people would be displaied on the screen.
 
 forms.py:
 ~~~
@@ -193,7 +191,7 @@ def restaurants(request):
         return render(request, 'Restaurants/restaurants.html',{'form': CityForm(), 'msg': msg})
 ~~~            
 #### 2.Slack App.
-Created the Slack App (using the Slack API) that allows the traveler to send message from the TravelScrape website to their
+Created the Slack App (using the Slack API) that allowed  travelers to send message from the TravelScrape website to their
 Slack Workspaces.
 
 .html:
@@ -316,8 +314,8 @@ def slack(request):
     return render(request, 'SlackApp/slack.html',{'client_id': client_id, 'message': message, 'authFlag': authFlag})
 ~~~
 #### 3.ToDoList Integration.
-ToDo List App allowed the traveler to add tasks into 4 different lists: today's task, this week,
-this month and spare time tasks. The lists were not connected to each other. There was All Task page that nedded to show 
+ToDo List App allowed travelers to add tasks into 4 different lists: today's task, this week,
+this month and spare time tasks. The lists were not connected to each other. There was All Task page that needed to show 
 all tasks by timeframe category. In addition, the user could add a new task from the All Tasks page and assign it to any 
 timeframe category.
 
