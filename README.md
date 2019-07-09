@@ -11,7 +11,7 @@ Restaurants app, Slack app, ToDo List app, etc.
 My contributions to the projects described below:
 
 #### 1. Created the Restaurant App using Zomato API.
-The App allowed travelers to enter the US city and state and returned the top 10 restaurants for that area. The name of the restaurant, the cuisine, average review ranking and average cost for 2 people would be displaied on the screen.
+The App allowed travelers to enter the US city and state and returned the top 10 restaurants for that area. The name of the restaurant, the cuisine, average review ranking and average cost for 2 people would be displayed on the screen.
 
 forms.py:
 ~~~
