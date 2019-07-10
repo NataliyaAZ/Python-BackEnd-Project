@@ -1,6 +1,6 @@
 The Back End project was the last project during my time at the Tech Academy.
 
-There are total 4 Live Projects offered by the Academy to their students: [Python Project](python-live-project/readme.md), C# Project, 
+There are total 4 Live Projects offered by the Academy to their students: [Python Project](https://github.com/NataliyaAZ/Python-Live-Project/blob/master/README.md), C# Project, 
 Front End and Back End Projects. Students can select either Python or C# for their front-end and back-end projects.
 I have selected  Python/Django for the back-end.
 
