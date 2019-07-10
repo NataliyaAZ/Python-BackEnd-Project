@@ -1,8 +1,6 @@
 The Back End project was the last project during my time at the Tech Academy.
 
-There are total 4 Live Projects offered by the Academy to their students: [Python Project](https://github.com/NataliyaAZ/Python-Live-Project/blob/master/README.md), C# Project, 
-Front End and Back End Projects. Students can select either Python or C# for their front-end and back-end projects.
-I have selected  Python/Django for the back-end.
+There are total 4 Live Projects offered by the Academy to their students: [Python Project](https://github.com/NataliyaAZ/Python-Live-Project/blob/master/README.md), [C# Project](https://github.com/NataliyaAZ/C-Sharp-Live-Project/blob/master/README.md), [Front End](https://github.com/NataliyaAZ/C-Sharp-FrontEnd-Project/blob/master/README.md) and Back End Projects. Students can select either Python or C# for their front-end and back-end projects.I selected  Python/Django for the back-end.
 
 The Django project I worked on with other developers  was a Travel Scraper web application. The Travel Scraper had  
 several applications that could be useful for anyone who travels: Weather app, Budget app, Currency Converter app, 
