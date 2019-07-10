@@ -1,17 +1,17 @@
 The Back End project was the last project during my time at the Tech Academy.
 
-There are total 4 Live Projects offered by the Academy to their students: Python Project, C# Project, 
+There are total 4 Live Projects offered by the Academy to their students: [Python Project](python-live-project/readme.md), C# Project, 
 Front End and Back End Projects. Students can select either Python or C# for their front-end and back-end projects.
-I have selected  Python/Django for the back-end project.
+I have selected  Python/Django for the back-end.
 
-The Django project I worked on with other developers  was a Travel Scrape web application. The Travel Scrape had  
+The Django project I worked on with other developers  was a Travel Scraper web application. The Travel Scraper had  
 several applications that could be useful for anyone who travels: Weather app, Budget app, Currency Converter app, 
 Restaurants app, Slack app, ToDo List app, etc.
 
 My contributions to the projects described below:
 
 #### 1. Created the Restaurant App using Zomato API.
-The App allowed travelers to enter the US city and state and returned the top 10 restaurants for that area. The name of the restaurant, the cuisine, average review ranking and average cost for 2 people would be displayed on the screen.
+The App allows travelers to enter the US city and state and returns the top 10 restaurants for that area. The name of the restaurant, the cuisine, average review ranking, and average cost for 2 people will be displayed on the screen.
 
 forms.py:
 ~~~
@@ -191,7 +191,7 @@ def restaurants(request):
         return render(request, 'Restaurants/restaurants.html',{'form': CityForm(), 'msg': msg})
 ~~~            
 #### 2.Slack App.
-Created the Slack App (using the Slack API) that allowed  travelers to send message from the TravelScrape website to their
+Created the Slack App (using the Slack API) that allows  travelers to send message from the Travel Scraper website to their
 Slack Workspaces.
 
 .html:
@@ -314,10 +314,7 @@ def slack(request):
     return render(request, 'SlackApp/slack.html',{'client_id': client_id, 'message': message, 'authFlag': authFlag})
 ~~~
 #### 3.ToDoList Integration.
-ToDo List App allowed travelers to add tasks into 4 different lists: today's task, this week,
-this month and spare time tasks. The lists were not connected to each other. There was All Task page that needed to show 
-all tasks by timeframe category. In addition, the user could add a new task from the All Tasks page and assign it to any 
-timeframe category.
+ToDo List App allows travelers to add tasks into 4 different lists: today, this week, this month and spare time tasks. The lists were not connected to each other. There was All Tasks page where all tasks should have been listed by timeframe category. In addition, the user could add a new task from the All Tasks page and assign it to any timeframe category.
 
 
 .html:
